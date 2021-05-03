@@ -182,7 +182,10 @@ public class MainController {
         stage.setScene(new Scene(root));
         stage.setTitle("Cryptographer - О программе");
         stage.setResizable(false);
-        stage.show();
+
+        stage.initOwner(fileListView.getScene().getWindow());
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.showAndWait();
     }
 
     @FXML

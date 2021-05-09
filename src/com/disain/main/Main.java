@@ -1,5 +1,6 @@
 package com.disain.main;
 
+import com.disain.main.resources.controllers.MainController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,6 +18,7 @@ public class Main extends Application {
         primaryStage.setTitle("Cryptographer");
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(false);
+        primaryStage.setOnHiding(event -> System.exit(0));
         primaryStage.show();
     }
 

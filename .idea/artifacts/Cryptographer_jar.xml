@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="Cryptographer:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Cryptographer_jar</output-path>
-    <root id="archive" name="JavaFxApplication.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Cryptographer</output-path>
+    <root id="archive" name="Cryptographer.jar">
       <element id="module-output" name="Cryptographer" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/src.zip" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx-swt.jar" path-in-jar="/" />

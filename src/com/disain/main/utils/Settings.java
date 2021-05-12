@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class Settings {
+    private static final String version = "1.0.0";
     private static final Properties properties = new Properties();
 
     private static void init() throws IOException {
@@ -48,5 +49,9 @@ public class Settings {
 
     public static void setBufferSize(int bufferSize) {
         properties.setProperty("BUFFER_SIZE", String.valueOf(bufferSize));
+    }
+
+    public static String getVersion() {
+        return version;
     }
 }

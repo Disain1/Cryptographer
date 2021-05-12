@@ -48,7 +48,7 @@ public class CryptoUtils {
                 FileInputStream inputStream = new FileInputStream(inputFile);
                 FileOutputStream outputStream = new FileOutputStream(outputFile)
         ) {
-            byte[] inputBuffer = new byte[1024 * 64];
+            byte[] inputBuffer = new byte[1024 * Settings.getBufferSize()];
             int length;
 
             while ((length = inputStream.read(inputBuffer)) != -1) {

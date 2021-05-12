@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("resources/fxml/MainScene.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("resources/controllers/fxml/MainScene.fxml"));
         Parent root = loader.load();
         mainController = loader.getController();
         primaryStage.setTitle("Cryptographer");

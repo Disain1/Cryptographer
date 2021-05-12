@@ -163,7 +163,7 @@ public class MainController {
 
     @FXML
     void showSettingsScene(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/SettingsScene.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("fxml/SettingsScene.fxml"));
         Parent root = loader.load();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
@@ -177,7 +177,7 @@ public class MainController {
 
     @FXML
     void showKeyStoreScene(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/KeyStoreScene.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("fxml/KeyStoreScene.fxml"));
         Parent root = loader.load();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
@@ -191,7 +191,7 @@ public class MainController {
 
     @FXML
     void showAboutScene(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/AboutScene.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("fxml/AboutScene.fxml"));
         Parent root = loader.load();
         Stage stage = new Stage();
         stage.setScene(new Scene(root));
